@@ -1,0 +1,8 @@
+=head1 Changelog for Danga::Socket::AnyEvent
+
+=head2 v0.02, v0.03, May, June 2013
+
+Bugfix releases, affecting some corner case situations where events
+were not being woken up, or would wake up in unexpected situations.
+
+=cut

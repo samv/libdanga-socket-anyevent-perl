@@ -16,6 +16,10 @@ WriteMakefile(
         'Sys::Syscall'  => 0,
         'Carp'          => 0,
     },
-
+    PM => {
+        "lib/Danga/Socket/AnyEvent.pm" => (
+            '$(INST_LIBDIR)/Danga/Socket/AnyEvent.pm',
+        ),
+    },
 );
 
