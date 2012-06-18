@@ -18,7 +18,7 @@ WriteMakefile(
     },
     PM => {
         "lib/Danga/Socket/AnyEvent.pm" => (
-            '$(INST_LIBDIR)/Danga/Socket/AnyEvent.pm',
+            '$(INST_LIBDIR)/AnyEvent.pm',
         ),
     },
 );

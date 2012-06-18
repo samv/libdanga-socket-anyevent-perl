@@ -60,7 +60,7 @@ Epoll/KQueue/etc rather than other, less efficient mechanisms.
 package Danga::Socket::AnyEvent;
 
 use vars qw{$VERSION};
-$VERSION = "0.03";
+$VERSION = "0.04";
 use Carp;
 
 BEGIN {
